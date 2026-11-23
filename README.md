@@ -105,7 +105,7 @@ specs from your LED's datasheet.  Specify the color order when you instantiate O
 
 ### ObjectFLED CLASS
 
-__ObjectFLED(uint16_t numLEDs, void* drawBuf, uint8_t config, uint8_t numPins, const uint8_t* pinList, 
+__ObjectFLED(uint32_t numLEDs, void* drawBuf, uint8_t config, uint8_t numPins, const uint8_t* pinList, 
     uint8_t serpentine = 0);__
 
 - numLEDs = total number of LEDs in the device(s) represented by your drawing buffer
